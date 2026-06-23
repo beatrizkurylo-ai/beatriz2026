@@ -3,37 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Primeiro Site Acadêmico</title>
-    
+    <title>Glow Beauty - Maquiagem</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Projeto Alunos Tech</h1>
-        <p>Aprender, Codificar e Transformar</p>
-    </header>
+<header class="header">
+    <h1>Glow Beauty 💄</h1>
+    <p>Realce sua beleza todos os dias</p>
+</header>
 
-    <main class="container">
-        
-        <section class="card">
-            <h2>Sobre o Projeto</h2>
-            <p>Este é um modelo base criado para a aula de Desenvolvimento Web. Aqui você pode testar suas habilidades em HTML (estrutura), CSS (estilo) e JavaScript (interação).</p>
-        </section>
+<nav class="menu">
+    <a href="#produtos">Produtos</a>
+    <a href="#dicas">Dicas</a>
+    <a href="#contato">Contato</a>
+</nav>
 
-        <section class="card">
-            <h2>Área de Testes (JavaScript)</h2>
-            <p>Clique no botão abaixo para ver o JavaScript em ação e mudar a cor de fundo do site!</p>
-            
-            <button id="botao-cor">Mudar Cor de Fundo</button>
-        </section>
+<section class="hero">
+    <h2>Descubra sua melhor versão</h2>
+    <p>Maquiagens modernas, elegantes e acessíveis para você brilhar.</p>
+    <button id="btn-efeito">Mudar tema</button>
+</section>
 
-    </main>
+<main>
 
-    <footer>
-        <p>&copy; 2026 - Desenvolvido pela Turma de Web Design</p>
-    </footer>
+    <section id="produtos" class="section">
+        <h2>💋 Produtos em destaque</h2>
 
-    <script src="script.js"></script>
+        <div class="grid">
+            <div class="card">💄 Batom Matte</div>
+            <div class="card">✨ Base HD</div>
+            <div class="card">🌸 Blush Rosado</div>
+            <div class="card">👁️ Paleta de Sombras</div>
+        </div>
+    </section>
+
+    <section id="dicas" class="section">
+        <h2>💡 Dicas de maquiagem</h2>
+        <p>Use primer antes da base para maior fixação e acabamento natural.</p>
+        <p>Iluminador no ponto alto do rosto realça sua beleza.</p>
+    </section>
+
+    <section id="contato" class="section">
+        <h2>📩 Contato</h2>
+        <p>Email: contato@glowbeauty.com</p>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p>&copy; 2026 Glow Beauty - Todos os direitos reservados</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
